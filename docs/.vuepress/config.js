@@ -2,6 +2,9 @@ module.exports = {
   base: '/blog-demo/',
   title: 'blog-demo',
   description: 'Vuepress blog demo',
+  head: [
+    ['link', { rel: 'icon', href: '/vue-logo.png' }]
+  ],
   themeConfig: {
   	// 你的GitHub仓库
     repo: 'https://github.com/olewaHHH/blog-demo',
